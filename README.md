@@ -1,4 +1,4 @@
-# CodeQL Test Project TESTTT
+# CodeQL Test Project TEST
 
 Test environment to reproduce and solve CodeQL private maven registry authentication issues.
 
