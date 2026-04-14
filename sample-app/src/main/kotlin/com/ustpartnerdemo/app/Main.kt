@@ -1,6 +1,6 @@
-package com.gainsight.app
+package com.ustpartnerdemo.app
 
-import com.gainsight.library.PrivateUtils
+import com.ustpartnerdemo.library.PrivateUtils
 import java.sql.DriverManager
 
 /**

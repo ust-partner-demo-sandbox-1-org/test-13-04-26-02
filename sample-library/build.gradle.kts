@@ -3,7 +3,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.gainsight"
+group = "com.ustpartnerdemo"
 version = "1.0.0"
 
 repositories {
@@ -30,7 +30,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/Gainsight-GE-POC/code-ql-test")
+            url = uri("https://maven.pkg.github.com/ust-partner-demo-sandbox-1-org/test-13-04-26-02")
             credentials {
                 username = System.getenv("GPR_USERNAME")
                 password = System.getenv("GPR_PASSWORD")
