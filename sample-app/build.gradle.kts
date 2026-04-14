@@ -10,7 +10,7 @@ version = "1.0.0"
 repositories {
     mavenCentral()
     maven {
-        url = uri("https://maven.pkg.github.com/Gainsight-GE-POC/code-ql-test")
+        url = uri("https://maven.pkg.github.com/ust-partner-demo-sandbox-1-org/test-13-04-26-02")
         credentials {
             username = System.getenv("GPR_USERNAME") ?: ""
             password = System.getenv("GPR_PASSWORD") ?: ""
@@ -24,7 +24,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
     
     // Private library dependency - This will cause CodeQL to fail without credentials
-    implementation("com.gainsight:sample-library:1.0.0")
+    implementation("com.ustpartnerdemo:sample-library:1.0.0")
     
     // Some common dependencies like staircase-backend
     implementation("ch.qos.logback:logback-core:1.5.32")
@@ -38,7 +38,7 @@ dependencies {
 }
 
 application {
-    mainClass.set("com.gainsight.app.MainKt")
+    mainClass.set("com.ustpartnerdemo.app.MainKt")
 }
 
 java {

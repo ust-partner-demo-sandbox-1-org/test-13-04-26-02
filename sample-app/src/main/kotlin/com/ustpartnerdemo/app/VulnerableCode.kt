@@ -1,4 +1,4 @@
-package com.gainsight.app
+package com.ustpartnerdemo.app
 
 import java.sql.Connection
 import java.sql.DriverManager

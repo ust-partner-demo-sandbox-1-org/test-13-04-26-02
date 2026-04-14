@@ -1,4 +1,4 @@
-package com.gainsight.library
+package com.ustpartnerdemo.library
 
 /**
  * Simple utility class for testing private maven registry access
